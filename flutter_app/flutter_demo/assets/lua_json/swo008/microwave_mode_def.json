@@ -1,0 +1,103 @@
+{
+    "model_name": {
+        "zh": "微波",
+        "en": "Microwave"
+    },
+    "icon": "preset_microwave_icon.svg",
+    "lua_file": "microwave_mode_def.lua",
+    "params": {
+        "power": {
+            "id": 0,
+            "name": {
+                "zh": "火力",
+                "en": "Fire"
+            },
+            "select_type": "select",
+            "disable": false,
+            "value": 1,
+            "enum_value": [
+                {
+                    "value": 0,
+                    "str": "0",
+                    "subStr": {
+                        "zh": "无功率",
+                        "en": "No fire"
+                    }
+                },
+                {
+                    "value": 1,
+                    "str": "1",
+                    "subStr": {
+                        "zh": "低火",
+                        "en": "Low"
+                    }
+                },
+                {
+                    "value": 2,
+                    "str": "2",
+                    "subStr": {
+                        "zh": "中低火",
+                        "en": "Lower-Middle"
+                    }
+                },
+                {
+                    "value": 3,
+                    "str": "3",
+                    "subStr": {
+                        "zh": "中火",
+                        "en": "Middle"
+                    }
+                },
+                {
+                    "value": 4,
+                    "str": "4",
+                    "subStr": {
+                        "zh": "中高火",
+                        "en": "Higher-Middle"
+                    }
+                },
+                {
+                    "value": 5,
+                    "str": "5",
+                    "subStr": {
+                        "zh": "高火",
+                        "en": "High"
+                    }
+                }
+            ]
+        },
+        "innerTemp": {
+            "id": 1,
+            "name" :{
+                "zh":"炉心温度",
+                "en" :"inner temp"
+            },
+            "select_type" : "select",
+            "disable": true,
+            "hidden": true,
+            "value": 0
+        },
+        "runStatus": {
+            "id": 2,
+            "name" :{
+                "zh" :"状态",
+                "en":"run status"
+            },
+            "select_type":"select",
+            "disable" :true,
+            "hidden": true,
+            "value": 0
+        },
+        "timeout": {
+            "id": 3,
+            "name": {
+                "zh": "时间",
+                "en": "Time"
+            },
+            "select_type": "timeSelect",
+            "disable": false,
+            "value": 60,
+            "progressValue": 0
+        }
+    }
+}

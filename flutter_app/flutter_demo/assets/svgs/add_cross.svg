@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_add</title>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-50.000000, -50.000000)" id="button_add" stroke="#FFFFFF" stroke-width="2">
+            <g transform="translate(40.000000, 40.000000)">
+                <g id="icon_add" transform="translate(10.000000, 10.000000)">
+                    <circle id="椭圆形" cx="15" cy="15" r="12"></circle>
+                    <line x1="22" y1="15" x2="8" y2="15" id="路径" stroke-linecap="round"></line>
+                    <line x1="22" y1="15" x2="8" y2="15" id="路径备份" stroke-linecap="round" transform="translate(15.000000, 15.000000) rotate(-270.000000) translate(-15.000000, -15.000000) "></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

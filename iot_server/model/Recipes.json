@@ -1,0 +1,37 @@
+{
+    "name":{
+        "cn":"名称",
+        "en":"name"
+    },
+    "desc":{
+        "cn":"描述",
+        "en":"desc"
+    },
+    "support_langs":["cn","en"],
+    "default_lang":"cn",
+    "imgs":"http://xxxx.xx/xx.jpg",
+    "author":{
+        "id":""
+    },
+    "create_time":"2022/07/20 16:57",
+    "steps":[
+        {
+            "title":{
+                "cn":"11",
+                "en":"11"
+            },
+            "desc":{
+                "cn":"描述",
+                "en":"desc"
+            },
+            "type":"RUNNER/DESC"
+        },
+        {
+
+        }
+    ]
+
+
+    
+
+}

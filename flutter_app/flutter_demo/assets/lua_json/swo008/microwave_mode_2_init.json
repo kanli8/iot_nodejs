@@ -1,0 +1,85 @@
+{
+    "model_name": {
+        "zh": "微波模式",
+        "en": "MICROWAVE2"
+    },
+    "icon": "preset_microwave_icon.svg",
+    "lua_file": "microwave.lua",
+    "params": {
+        "Fire": {
+            "name": {
+                "zh": "火力",
+                "en": "Fire"
+            },
+            "type": "enum",
+            "disable": false,
+            "select_type": "select",
+            "value": 1,
+            "enum_value": [
+                {
+                    "value": 0,
+                    "str": "0",
+                    "subStr": {
+                        "zh": "无功率",
+                        "en": "No fire"
+                    }
+                },
+                {
+                    "value": 1,
+                    "str": "1",
+                    "subStr": {
+                        "zh": "低火",
+                        "en": "Low"
+                    }
+                },
+                {
+                    "value": 2,
+                    "str": "2",
+                    "subStr": {
+                        "zh": "低火",
+                        "en": "Lower-Middle"
+                    }
+                },
+                {
+                    "value": 3,
+                    "str": "3",
+                    "subStr": {
+                        "zh": "中火",
+                        "en": "Middle"
+                    }
+                },
+                {
+                    "value": 4,
+                    "str": "4",
+                    "subStr": {
+                        "zh": "中火",
+                        "en": "Higher-Middle"
+                    }
+                },
+                {
+                    "value": 5,
+                    "str": "5",
+                    "subStr": {
+                        "zh": "高火",
+                        "en": "High"
+                    }
+                }
+            ],
+            "onSubmit": "microwave_power_on_submit"
+        },
+        "Time": {
+            "name": {
+                "zh": "时间",
+                "en": "Time"
+            },
+            "select_type": "timeSelect",
+            "show_progress":false,
+            "progress_rate": 66,
+            "disable": false,
+            "value": 120,
+            "min_value": 0,
+            "max_value": 86400,
+            "onSubmit": "microwave_time_on_submit"
+        }
+    }
+}

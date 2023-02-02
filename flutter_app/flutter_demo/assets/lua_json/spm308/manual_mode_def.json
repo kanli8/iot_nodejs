@@ -1,0 +1,62 @@
+{
+    "model_name": {
+        "zh": "手动模式",
+        "en": "Manual"
+    },
+    "icon": "preset_microwave_icon.svg",
+    "lua_file": "manual_mode_def.lua",
+    "params": {
+        "tempLev": {
+            "id": 0,
+            "name": {
+                "zh": "温度档位",
+                "en": "Temp Lev"
+            },
+            "select_type": "select",
+            "disable": false,
+            "value": 2,
+            "enum_value": [
+                { "value": 0 }, { "value": 1 }, { "value": 2 }, { "value": 3 }, { "value": 4 },
+                { "value": 5 }, { "value": 6 }, { "value": 7 }, { "value": 8 }, { "value": 9 },
+                { "value": 10 }, { "value": 11 }, { "value": 12 }, { "value": 13 }, { "value": 14 },
+                { "value": 15 }, { "value": 16 }, { "value": 17 }, { "value": 18 }, { "value": 19 }
+            ]
+        },
+        "speedLev": {
+            "id": 1,
+            "name": {
+                "zh": "速度档位",
+                "en": "Speed Lev"
+            },
+            "select_type": "select",
+            "disable": false,
+            "value": 0,
+            "enum_value": [
+                { "value": 0 }, { "value": 1 }, { "value": 2 }, { "value": 3 }, { "value": 4 },
+                { "value": 5 }, { "value": 6 }, { "value": 7 }, { "value": 8 }, { "value": 9 },
+                { "value": 10 }
+            ]
+        },
+        "ccw": {
+            "id": 2,
+            "name": {
+                "zh": "是否反转",
+                "en": "CCW"
+            },
+            "select_type": "switch",
+            "disable": false,
+            "value": true
+        },
+        "timeout": {
+            "id": 3,
+            "name": {
+                "zh": "时间",
+                "en": "Time"
+            },
+            "select_type": "timeSelect",
+            "disable": false,
+            "value": 60,
+            "progressValue": 0
+        }
+    }
+}

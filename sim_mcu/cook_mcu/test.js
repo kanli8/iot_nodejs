@@ -1,0 +1,2 @@
+var buf = Buffer.from([0x75, 0x65, 0x73, 0x74])
+console.log("向ESP写入..."+buf);

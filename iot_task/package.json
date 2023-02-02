@@ -1,0 +1,38 @@
+{
+  "name": "iot_client",
+  "version": "1.0.0",
+  "description": "iot test client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./out/index.js"
+  },
+  "keywords": [
+    "iot",
+    "nodejs",
+    "iot",
+    "client",
+    "sdk"
+  ],
+  "author": "kecai.pan",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "js-base64": "^3.7.2",
+    "kafkajs": "^2.1.0",
+    "mysql": "^2.18.1",
+    "node-appwrite": "^7.0.2",
+    "node-fetch": "^2.6.7",
+    "redis": "^4.2.0",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.21",
+    "@types/websocket": "^1.0.5",
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}

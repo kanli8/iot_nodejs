@@ -1,0 +1,25 @@
+{
+    "name":"xxx_up_command_model",
+    "version":1,
+    "model_id":1,
+    "model_type":"fix_length",
+    "command_len":15,
+    "params":{
+        "temp":{
+            "start_index":0,
+            "length":1
+        },
+        "pressure":{
+            "start_index":1,
+            "length":1
+        },
+        "mutl2":{
+            "start_index":2,
+            "length":2
+        },
+        "mutl3":{
+            "start_index":4,
+            "length":3
+        }
+    }
+}

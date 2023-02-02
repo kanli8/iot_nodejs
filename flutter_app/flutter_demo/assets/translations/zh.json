@@ -1,0 +1,14 @@
+{
+    "app_name": "侧化APP",
+    "preset": "预设",
+    "recipes": "菜谱",
+    "device":"设备",
+    "notifications": "Notifications",
+    "help": "Help",
+    "about_us": "About Us",
+    "rate_us": "Rate Us",
+    "page": "Page",
+    "current": "Current Page",
+    "name": "Adan Balina",
+    "logout": "Logout"
+  }

@@ -1,0 +1,105 @@
+{
+    "model_name": {
+        "zh": "烘烤",
+        "en": "Bake"
+    },
+    "icon": "preset_microwave_icon.svg",
+    "lua_file": "bake_mode_def.lua",
+    "params": {
+        "temp": {
+            "id": 0,
+            "name": {
+                "zh": "目标温度",
+                "en": "Temp"
+            },
+            "select_type": "select",
+            "disable": false,
+            "value": 35,
+            "enum_value": [
+                { "value": 0 }, { "value": 35 }, 
+                { "value": 36 }, { "value": 37 }, { "value": 38 }, { "value": 39 }, { "value": 40 }, 
+                { "value": 41 }, { "value": 42 }, { "value": 43 }, { "value": 44 }, { "value": 45 }, 
+                { "value": 46 }, { "value": 47 }, { "value": 48 }, { "value": 49 }, { "value": 50 },
+                { "value": 51 }, { "value": 52 }, { "value": 53 }, { "value": 54 }, { "value": 55 }, 
+                { "value": 56 }, { "value": 57 }, { "value": 58 }, { "value": 59 }, { "value": 60 }, 
+                { "value": 61 }, { "value": 62 }, { "value": 63 }, { "value": 64 }, { "value": 65 }, 
+                { "value": 66 }, { "value": 67 }, { "value": 68 }, { "value": 69 }, { "value": 70 }, 
+                { "value": 71 }, { "value": 72 }, { "value": 73 }, { "value": 74 }, { "value": 75 }, 
+                { "value": 76 }, { "value": 77 }, { "value": 78 }, { "value": 79 }, { "value": 80 }, 
+                { "value": 81 }, { "value": 82 }, { "value": 83 }, { "value": 84 }, { "value": 85 }, 
+                { "value": 86 }, { "value": 87 }, { "value": 88 }, { "value": 89 }, { "value": 90 }, 
+                { "value": 91 }, { "value": 92 }, { "value": 93 }, { "value": 94 }, { "value": 95 }, 
+                { "value": 96 }, { "value": 97 }, { "value": 98 }, { "value": 99 }, { "value": 100 }, 
+                { "value": 101 }, { "value": 102 }, { "value": 103 }, { "value": 104 }, { "value": 105 }, 
+                { "value": 106 }, { "value": 107 }, { "value": 108 }, { "value": 109 }, { "value": 110 }, 
+                { "value": 111 }, { "value": 112 }, { "value": 113 }, { "value": 114 }, { "value": 115 }, 
+                { "value": 116 }, { "value": 117 }, { "value": 118 }, { "value": 119 }, { "value": 120 }, 
+                { "value": 121 }, { "value": 122 }, { "value": 123 }, { "value": 124 }, { "value": 125 }, 
+                { "value": 126 }, { "value": 127 }, { "value": 128 }, { "value": 129 }, { "value": 130 }, 
+                { "value": 131 }, { "value": 132 }, { "value": 133 }, { "value": 134 }, { "value": 135 }, 
+                { "value": 136 }, { "value": 137 }, { "value": 138 }, { "value": 139 }, { "value": 140 }, 
+                { "value": 141 }, { "value": 142 }, { "value": 143 }, { "value": 144 }, { "value": 145 }, 
+                { "value": 146 }, { "value": 147 }, { "value": 148 }, { "value": 149 }, { "value": 150 }, 
+                { "value": 151 }, { "value": 152 }, { "value": 153 }, { "value": 154 }, { "value": 155 }, 
+                { "value": 156 }, { "value": 157 }, { "value": 158 }, { "value": 159 }, { "value": 160 }, 
+                { "value": 161 }, { "value": 162 }, { "value": 163 }, { "value": 164 }, { "value": 165 }, 
+                { "value": 166 }, { "value": 167 }, { "value": 168 }, { "value": 169 }, { "value": 170 }, 
+                { "value": 171 }, { "value": 172 }, { "value": 173 }, { "value": 174 }, { "value": 175 }, 
+                { "value": 176 }, { "value": 177 }, { "value": 178 }, { "value": 179 }, { "value": 180 }, 
+                { "value": 181 }, { "value": 182 }, { "value": 183 }, { "value": 184 }, { "value": 185 }, 
+                { "value": 186 }, { "value": 187 }, { "value": 188 }, { "value": 189 }, { "value": 190 }, 
+                { "value": 191 }, { "value": 192 }, { "value": 193 }, { "value": 194 }, { "value": 195 }, 
+                { "value": 196 }, { "value": 117 }, { "value": 198 }, { "value": 199 }, { "value": 200 }, 
+                { "value": 201 }, { "value": 202 }, { "value": 203 }, { "value": 204 }, { "value": 205 }, 
+                { "value": 206 }, { "value": 207 }, { "value": 208 }, { "value": 209 }, { "value": 210 }, 
+                { "value": 211 }, { "value": 212 }, { "value": 213 }, { "value": 214 }, { "value": 215 }, 
+                { "value": 216 }, { "value": 217 }, { "value": 218 }, { "value": 219 }, { "value": 220 }, 
+                { "value": 221 }, { "value": 222 }, { "value": 223 }, { "value": 224 }, { "value": 225 }, 
+                { "value": 226 }, { "value": 227 }, { "value": 228 }, { "value": 229 }, { "value": 230 }
+            ]
+        },
+        "innerTemp": {
+            "id": 1,
+            "name" :{
+                "zh":"炉心温度",
+                "en" :"inner temp"
+            },
+            "select_type" : "select",
+            "disable": true,
+            "hidden": true,
+            "value": 0
+        },
+        "runStatus": {
+            "id": 2,
+            "name" :{
+                "zh" :"状态",
+                "en":"run status"
+            },
+            "select_type":"select",
+            "disable" :true,
+            "hidden": true,
+            "value": 0
+        },
+        "timeout": {
+            "id": 3,
+            "name": {
+                "zh": "时间",
+                "en": "Time"
+            },
+            "select_type": "timeSelect",
+            "disable": false,
+            "value": 60,
+            "progressValue": 0
+        },
+        "preheat": {
+            "id": 4,
+            "name" :{
+                "zh":"是否预热",
+                "en" :"preheat"
+            },
+            "select_type" : "switch",
+            "disable": false,
+            "value": false
+        }
+    }
+}

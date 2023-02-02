@@ -1,0 +1,13 @@
+{
+    "model_name":"cat_model",
+    "author":"pkc",
+ 
+    "params":{
+        "temp":{
+            "startSign":"0xAA",
+            "length":0
+        }
+    }
+
+
+}

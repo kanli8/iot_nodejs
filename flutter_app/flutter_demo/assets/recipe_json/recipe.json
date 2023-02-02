@@ -1,0 +1,216 @@
+{
+    "data": {
+        "_id": "61ee5d73a5df607319842359",
+        "language": "CN",
+        "recipeName": {
+            "text": "费城牛肉起司三明治",
+            "audioName": null,
+            "audioMd5": null
+        },
+        "servers": "1",
+        "cookLevel": "1",
+        "coverImage": null,
+        "imageUrl": null,
+        "videoUrl": "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4",
+        "videoFile": {
+            "fileName": null,
+            "fileMd5": null
+        },
+        "desc": {
+            "text": "测试运行菜谱13描述文本",
+            "audioName": "35181345f7fa25189d9568e9fcb89cdb_164301143",
+            "audioMd5": "35181345f7fa25189d9568e9fcb89cdb"
+        },
+        "supportMachineTypes": [
+            "SWO008"
+        ],
+        "ingredients": [
+            {
+                "ingredientId": "61aecbb6de246654450e6b94",
+                "ingredientName": "测试食材名称1",
+                "unit": "g",
+                "quantity": "1",
+                "deal": {
+                    "str": "测试处理方式文本描述1",
+                    "audio": null,
+                    "video": null
+                }
+            },
+            {
+                "ingredientId": "61aecbb7de246654450e6b97",
+                "ingredientName": "测试食材名称2",
+                "unit": "ml",
+                "quantity": "2",
+                "deal": {
+                    "str": "测试处理方式文本描述2",
+                    "audio": null,
+                    "video": null
+                }
+            }
+        ],
+        "nutritions": [
+            {
+                "nutritionName": "测试营养名称1",
+                "unit": "g",
+                "quantity": "1"
+            },
+            {
+                "nutritionName": "测试营养名称2",
+                "unit": "g",
+                "quantity": "2"
+            }
+        ],
+        "tags": [
+            {
+                "tagId": 15,
+                "tagName": "面包"
+            },
+            {
+                "tagId": 16,
+                "tagName": "牛肉"
+            }
+        ],
+        "score": "4",
+        "comments": [],
+        "timeoutInfo": {
+            "prTime": 5,
+            "cookTime": 470
+        },
+        "preSteps": [
+            {
+                "timeout": 2,
+                "preStep": 1,
+                "str": "准备步骤处理方式文本描述1",
+                "audioName": "54be6039782e6e97e568832cbdd139c3_164301143",
+                "audioMd5": "54be6039782e6e97e568832cbdd139c3",
+                "video": null,
+                "imgs": null
+            },
+            {
+                "timeout": 3,
+                "preStep": 3,
+                "str": "准备步骤处理方式文本描述2",
+                "audioName": "3b8ce1afe303b1a2e925edc9d46ec09f_164301143",
+                "audioMd5": "3b8ce1afe303b1a2e925edc9d46ec09f",
+                "video": null,
+                "imgs": null
+            }
+        ],
+        "steps": [
+            {
+                "dataType": "stepNode",
+                "id": 1,
+                "stepType": "start",
+                "handleType": "AP",
+                "supportMachineType": [
+                    "SWO008"
+                ],
+                "machineCmd": {
+                    "desc": {
+                        "str": "微波步骤描述",
+                        "audioName": "21a014da7c93a4fafbddf5dd01b0f154_164301143",
+                        "audioMd5": "21a014da7c93a4fafbddf5dd01b0f154"
+                    },
+                    "nonDeal": {
+                        "video": "string, 处理视频",
+                        "imgs": []
+                    },
+                    "SWO008": {
+                        "type": "microwaveMode",
+                        "timeout": 120,
+                        "microwavePower": 1
+                    }
+                }
+            },
+            {
+                "dataType": "stepNode",
+                "id": 2,
+                "stepType": "handle",
+                "handleType": "AP",
+                "supportMachineType": [
+                    "SWO008"
+                ],
+                "machineCmd": {
+                    "desc": {
+                        "str": "蒸汽步骤描述",
+                        "audioName": "6d346211b0589e44c46ea1d13e0f54be_164301144",
+                        "audioMd5": "6d346211b0589e44c46ea1d13e0f54be"
+                    },
+                    "nonDeal": {
+                        "video": "string, 处理视频",
+                        "imgs": []
+                    },
+                    "SWO008": {
+                        "type": "steamMode",
+                        "timeout": 100,
+                        "steamPower": 1
+                    }
+                }
+            },
+            {
+                "dataType": "stepNode",
+                "id": 3,
+                "stepType": "handle",
+                "handleType": "MP",
+                "manualProcess": {
+                    "str": "string, 处理方式文本描述",
+                    "audioName": "3fc02acab0bdb86ef85035beaa6f264e_164301144",
+                    "audioMd5": "3fc02acab0bdb86ef85035beaa6f264e",
+                    "video": "string, 处理视频",
+                    "imgs": []
+                }
+            },
+            {
+                "dataType": "stepNode",
+                "id": 4,
+                "stepType": "end",
+                "handleType": "AP",
+                "supportMachineType": [
+                    "SWO008"
+                ],
+                "machineCmd": {
+                    "desc": {
+                        "str": "烘烤步骤描述",
+                        "audioName": "38af41b4c68aa74b3932f489adacad45_164301144",
+                        "audioMd5": "38af41b4c68aa74b3932f489adacad45"
+                    },
+                    "nonDeal": {
+                        "video": "string, 处理视频",
+                        "imgs": []
+                    },
+                    "SWO008": {
+                        "type": "bakeMode",
+                        "timeout": 130,
+                        "bakeTemp": 150,
+                        "boost": false
+                    }
+                }
+            },
+            {
+                "dataType": "stepFlow",
+                "id": 1,
+                "sourceId": 1,
+                "targerId": 2
+            },
+            {
+                "dataType": "stepFlow",
+                "id": 2,
+                "sourceId": 2,
+                "targerId": 3
+            },
+            {
+                "dataType": "stepFlow",
+                "id": 3,
+                "sourceId": 3,
+                "targerId": 4
+            }
+        ],
+        "recipeId": 115,
+        "createTime": "2022-01-24T08:04:03.191Z",
+        "updateTime": "2022-01-24T08:04:03.191Z"
+    },
+    "code": 0,
+    "message": "success",
+    "timestamp": 1647920270067,
+    "path": "/v1/recipeDetail/queryById"
+}

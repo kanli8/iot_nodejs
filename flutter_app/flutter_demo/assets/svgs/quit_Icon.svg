@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tabar_icon_back2</title>
+    <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="icon" transform="translate(-250.000000, -160.000000)" stroke="#333B43" stroke-width="3">
+            <g id="tabar_icon_back2" transform="translate(250.000000, 160.000000)">
+                <path d="M10.5789474,12.0277778 L8.21052632,14.3888889 L10.5789474,16.75 M8.21052632,14.3888889 L15.7894737,14.3888889 L15.7894737,11.5555556 M3,7 L21,7 L21,21 L3,21 L3,7 Z M3,3 L21,3 L21,21 L3,21 L3,3 Z" id="形状结合"></path>
+            </g>
+        </g>
+    </g>
+</svg>

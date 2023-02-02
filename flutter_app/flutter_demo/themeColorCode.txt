@@ -1,0 +1,3 @@
+area                light           dark
+backgroup           FFF3EB          25180E
+FFFFE0B2

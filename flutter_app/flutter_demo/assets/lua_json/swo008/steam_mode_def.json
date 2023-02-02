@@ -1,0 +1,76 @@
+{
+    "model_name": {
+        "zh": "蒸汽",
+        "en": "Steam"
+    },
+    "icon": "preset_microwave_icon.svg",
+    "lua_file": "steam_mode_def.lua",
+    "params": {
+        "power": {
+            "id": 0,
+            "name": {
+                "zh": "火力",
+                "en": "Fire"
+            },
+            "select_type": "select",
+            "disable": false,
+            "value": 2,
+            "enum_value": [
+                {
+                    "value": 0,
+                    "str": "0",
+                    "subStr": {
+                        "zh": "蒸汽关闭",
+                        "en": "Off"
+                    }
+                },
+                {
+                    "value": 1,
+                    "str": "1",
+                    "subStr": {
+                        "zh": "低",
+                        "en": "Low"
+                    }
+                },
+                {
+                    "value": 2,
+                    "str": "2",
+                    "subStr": {
+                        "zh": "中",
+                        "en": "Middle"
+                    }
+                },
+                {
+                    "value": 3,
+                    "str": "3",
+                    "subStr": {
+                        "zh": "高",
+                        "en": "High"
+                    }
+                }
+            ]
+        },
+        "innerTemp": {
+            "id": 1,
+            "name" :{
+                "zh":"炉心温度",
+                "en" :"inner temp"
+            },
+            "select_type" : "select",
+            "disable": true,
+            "hidden": true,
+            "value": 0
+        },
+        "timeout": {
+            "id": 2,
+            "name": {
+                "zh": "时间",
+                "en": "Time"
+            },
+            "select_type": "timeSelect",
+            "disable": false,
+            "value": 60,
+            "progressValue": 0
+        }
+    }
+}

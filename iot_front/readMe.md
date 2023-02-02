@@ -1,0 +1,1 @@
+pm2 start ./out/index.js --name iot_front

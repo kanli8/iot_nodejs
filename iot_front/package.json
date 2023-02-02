@@ -1,0 +1,39 @@
+{
+  "name": "iot_front",
+  "version": "0.0.1",
+  "description": "iot websocket front",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"nodemon out/index.js\"",
+    "start": "node ./out/index.js"
+  },
+  "keywords": [
+    "iot",
+    "front"
+  ],
+  "author": "kecai.pan",
+  "license": "MIT",
+  "dependencies": {
+    "@types/md5": "^2.3.2",
+    "@types/mysql": "^2.15.21",
+    "@types/uuid": "^8.3.4",
+    "@types/websocket": "^1.0.5",
+    "js-base64": "^3.7.2",
+    "kafkajs": "^2.1.0",
+    "log4js": "^6.5.2",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "node-appwrite": "^7.0.2",
+    "node-fetch": "^2.6.7",
+    "redis": "^4.5.0",
+    "uuid": "^8.3.2",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}

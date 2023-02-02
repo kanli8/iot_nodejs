@@ -1,0 +1,190 @@
+{   
+    "default_lang":"en",
+    "desc":"202212更新的文档",
+    "typeList": [
+        {
+            "typeName": {
+                "zh": "模式覆盖",
+                "en": "Mode coverage"
+            },
+            "modeList": [
+                {
+                    "modeKey": "ROAST",
+                    "name": {
+                        "zh":"烧烤",
+                        "en":"Roast"
+                    },
+                    "fileName": "roast_mode_def.json",
+                    "icon": "preset_roast_icon.svg",
+                    "desc": "烧烤标准"
+                },
+                {
+                    "modeKey": "MICROWAVE",
+                    "name": {
+                        "zh":"微波",
+                        "en":"Microwave"
+                    },
+                    "fileName": "microwave_mode_def.json",
+                    "icon": "preset_microwave_icon.svg",
+                    "desc": "微波标准"
+                },
+                {
+                    "modeKey": "STEAM",
+                    "name": {
+                        "zh":"蒸汽",
+                        "en":"Steam"
+                    },
+                    "fileName": "steam_mode_def.json",
+                    "icon": "preset_steam_icon.svg",
+                    "desc": "蒸汽标准"
+                },
+                {
+                    "modeKey": "BAKE",
+                    "name": {
+                        "zh":"烘烤",
+                        "en":"Bake"
+                    },
+                    "fileName": "bake_mode_def.json",
+                    "icon": "preset_bake_icon.svg",
+                    "desc": "烘烤标准"
+                },
+                {
+                    "modeKey": "MICROWAVESTEAM",
+                    "name": {
+                        "zh":"微波蒸汽",
+                        "en":"Microwave&Steam"
+                    },
+                    "fileName": "microwavesteam_mode_def.json",
+                    "icon": "preset_microwave_steam_icon.svg",
+                    "desc": "微波蒸汽标准"
+                },
+                {
+                    "modeKey": "MICROWAVEROAST",
+                    "name": {
+                        "zh":"微波烧烤",
+                        "en":"Microwave&Roast"
+                    },
+                    "fileName": "microwaveroast_mode_def.json",
+                    "icon": "preset_microwave_roast_icon.svg",
+                    "desc": "微波烧烤标准"
+                },
+                {
+                    "modeKey": "ROASTBAKE",
+                    "name": {
+                        "zh":"双动力烤",
+                        "en":"Roast&Bake"
+                    },
+                    "fileName": "roastbake_mode_def.json",
+                    "icon": "preset_roast_bake_icon.svg",
+                    "desc": "双动力烤标准"
+                },
+                {
+                    "modeKey": "DEODORIZATION",
+                    "name": {
+                        "zh":"除臭",
+                        "en":"Deodorization"
+                    },
+                    "fileName": "deodorization_mode_def.json",
+                    "icon": "preset_deodorization_icon.svg",
+                    "desc": "除臭标准"
+                }
+            ]
+        },
+        {
+            "typeName": {
+                "zh":"烧烤",
+                "en":"roast"
+            },
+            "modeList": [
+                {
+                    "name": {
+                        "zh":"烧烤",
+                        "en":"Roast"
+                    },
+                    "fileName": "roast_mode_def.json",
+                    "icon": "preset_microwave_icon.svg",
+                    "desc": "烧烤模式-2",
+                    "params": {
+                        "power": 1,
+                        "innerTemp": 0,
+                        "runStatus": 0,
+                        "timeout": 120
+                    }
+                }
+            ]
+        },
+        {
+            "auth": "factory",
+            "typeName": {
+                "zh":"测试",
+                "en":"test"
+            },
+            "modeList": [
+                {
+                    "name": {
+                        "zh":"LT-微波",
+                        "en":"LT-微波"
+                    },
+                    "fileName": "life_test_microwave.json",
+                    "icon": "preset_microwave_icon.svg",
+                    "desc": "寿命测试-微波"
+                },
+                {
+                    "name": {
+                        "en":"LT-蒸汽",
+                        "zh":"LT-蒸汽"
+                    },
+
+                    "fileName": "life_test_steam.json",
+                    "icon": "preset_steam_icon.svg",
+                    "desc": "寿命测试-蒸汽"
+                },
+                {
+                    "name": {
+                        "en":"LT-烧烤",
+                        "zh":"LT-烧烤"
+                    },
+                    "fileName": "life_test_roast.json",
+                    "icon": "preset_roast_icon.svg",
+                    "desc": "寿命测试-烧烤"
+                },
+                {
+                    "name": {
+                        "en":"LT-烘烤",
+                        "zh":"LT-烘烤"
+                    },
+                    "fileName": "life_test_bake.json",
+                    "icon": "preset_bake_icon.svg",
+                    "desc": "寿命测试-烘烤"
+                },
+                {
+                    "name": {
+                        "en":"LT-微波蒸汽",
+                        "zh":"LT-微波蒸汽"
+                    },
+                    "fileName": "life_test_microwave_steam.json",
+                    "icon": "preset_microwave_steam_icon.svg",
+                    "desc": "寿命测试-微波蒸汽"
+                },
+                {
+                    "name": {
+                        "en":"LT-微波烘烤",
+                        "zh":"LT-微波烘烤"
+                    },
+                    "fileName": "life_test_microwave_bake.json",
+                    "icon": "preset_microwave_icon.svg",
+                    "desc": "寿命测试-微波烘烤"
+                },
+                {
+                    "name": {
+                        "en":"LT-微波烧烤",
+                        "zh":"LT-微波烧烤"
+                    },
+                    "fileName": "life_test_microwave_roast.json",
+                    "icon": "preset_microwave_roast_icon.svg",
+                    "desc": "寿命测试-微波烧烤"
+                }
+            ]
+        }
+    ]
+}

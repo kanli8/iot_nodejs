@@ -1,0 +1,22 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.adapterTargetName": "esp32",
+  "files.associations": {
+    "wifi_prov.h": "c",
+    "protocomm_security1.h": "c",
+    "p_websocket.h": "c",
+    "esp_event_base.h": "c",
+    "uart_p.h": "c",
+    "eventloop.h": "c",
+    "*.inc": "c",
+    "array": "c",
+    "string": "c",
+    "string_view": "c",
+    "util.h": "c",
+    "md5.h": "c",
+    "sstream": "c",
+    "sys.h": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.portWin": "COM4"
+}

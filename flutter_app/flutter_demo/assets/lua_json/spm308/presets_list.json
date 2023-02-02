@@ -1,0 +1,24 @@
+{   
+    "default_lang":"en",
+    "desc":"SPM308 预设列表定义",
+    "typeList": [
+        {
+            "typeName": {
+                "zh": "模式覆盖",
+                "en": "Mode coverage"
+            },
+            "modeList": [
+                {
+                    "modeKey": "MANUAL",
+                    "name": {
+                        "zh":"手动",
+                        "en":"Manual"
+                    },
+                    "fileName": "manual_mode_def.json",
+                    "icon": "preset_roast_icon.svg",
+                    "desc": "手动模式"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86px" height="86px" viewBox="0 0 86 86" version="1.1">
+  <title>椭圆形</title>
+  <defs>
+    <circle id="path-1" cx="43" cy="43" r="43"></circle>
+  </defs>
+  <g id="图标" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="icon" transform="translate(-756.000000, -278.000000)">
+      <g id="椭圆形-+-椭圆形-蒙版" transform="translate(756.000000, 278.000000)">
+        <mask id="mask-2" fill="white">
+          <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="蒙版" fill="#535B63" xlink:href="#path-1"></use>
+        <circle id="椭圆形" fill="#D8D8D8" mask="url(#mask-2)" cx="43" cy="29" r="17"></circle>
+        <circle id="椭圆形" fill="#D8D8D8" mask="url(#mask-2)" cx="43" cy="83" r="34"></circle>
+      </g>
+    </g>
+  </g>
+</svg>

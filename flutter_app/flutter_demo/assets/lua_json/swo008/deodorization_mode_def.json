@@ -1,0 +1,21 @@
+{
+    "model_name": {
+        "zh": "除臭",
+        "en": "Deodorization"
+    },
+    "icon": "preset_microwave_icon.svg",
+    "lua_file": "deodorization_mode_def.lua",
+    "params": {
+        "timeout": {
+            "id": 0,
+            "name": {
+                "zh": "时间",
+                "en": "Time"
+            },
+            "select_type": "timeSelect",
+            "disable": false,
+            "value": 60,
+            "progressValue": 0
+        }
+    }
+}

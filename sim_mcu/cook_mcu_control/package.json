@@ -1,0 +1,27 @@
+{
+  "name": "iot_client",
+  "version": "1.0.0",
+  "description": "iot test client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "iot",
+    "nodejs",
+    "iot",
+    "client",
+    "sdk"
+  ],
+  "author": "kecai.pan",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "fetch": "^1.1.0",
+    "js-base64": "^3.7.2",
+    "kafkajs": "^2.1.0",
+    "node-fetch": "^2.6.7",
+    "websocket": "^1.0.34"
+  }
+}

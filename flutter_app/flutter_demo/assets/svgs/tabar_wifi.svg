@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="design-iconfont">
+  <g fill="none" fill-rule="evenodd">
+    <path fill-opacity=".01" fill="#FFF" fill-rule="nonzero" d="M0 0H30V30H0z"/>
+    <path d="M0,5.21864281 C0.382720096,4.85305655 0.776893194,4.50666684 1.1813103,4.17947369 C8.47411062,-1.7203351 19.0983633,-1.37395195 26,5.21864281" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 5)"/>
+    <path d="M22.099999,9.69589519 C17.0741978,4.63010134 8.92579573,4.63010134 3.89999447,9.69589519" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 5)"/>
+    <path d="M18.199998,13.9641475 C15.3281023,11.0693988 10.6718912,11.0693988 7.79999545,13.9641475" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 5)"/>
+    <path d="M12.9999967,20 C13.897452,20 14.6249972,19.2666654 14.6249972,18.3620687 C14.6249972,17.457472 13.897452,16.7241375 12.9999967,16.7241375 C12.1025415,16.7241375 11.3749963,17.457472 11.3749963,18.3620687 C11.3749963,19.2666654 12.1025415,20 12.9999967,20 Z" fill="#FFF" transform="translate(2 5)"/>
+  </g>
+</svg>

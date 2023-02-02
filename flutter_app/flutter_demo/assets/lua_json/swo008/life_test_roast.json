@@ -1,0 +1,55 @@
+{
+    "model_name": {
+        "zh": "寿命测试-烧烤",
+        "en": "LT-烧烤"
+    },
+    "icon": "preset_microwave_icon.svg",
+    "lua_file": "lifetime_mode_roast.lua",
+    "params": {
+        "power": {
+            "name": {
+                "zh": "火力",
+                "en": "power"
+            },
+            "select_type": "select",
+            "disable": true,
+            "value": 3
+        },
+        "innerTemp": {
+            "name" :{
+                "zh":"炉心温度",
+                "en" :"inner temp"
+            },
+            "select_type" : "select",
+            "disable": true,
+            "value": 0
+        },
+        "cycle": {
+            "name" :{
+                "zh":"周期",
+                "en" :"cycle"
+            },
+            "select_type" : "select",
+            "disable": true,
+            "value": 0
+        }, 
+        "Status": {
+            "name" :{
+                "zh" :"状态",
+                "en":"run status"
+            },
+            "select_type":"select",
+            "disable" :true,
+            "value" :0
+        },
+        "runTime": {
+            "name": {
+                "zh": "时间",
+                "en": "run Time"
+            },
+            "select_type": "timeSelect",
+            "disable": true,
+            "value": 0
+        }
+    }
+}
